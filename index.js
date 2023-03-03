@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const generateSVG = require('./utils/generateSVG')
 
 const questions = [
     {
@@ -14,7 +15,7 @@ const questions = [
     {
         type: 'list',
         message: 'What shape do you want your logo to be',
-        choices: ['triangle', 'square', 'circle'],
+        choices: ['Triangle', 'Square', 'Circle'],
         name: 'shape',
     },
     {
@@ -26,5 +27,5 @@ const questions = [
 
 inquirer
     .prompt(questions).then((data) => {
-        console.log(data)
+        generateSVG(data)
     })
