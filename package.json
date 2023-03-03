@@ -1,0 +1,26 @@
+{
+  "name": "svglogomaker",
+  "version": "1.0.0",
+  "description": "Makes custom svg logo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeloc1/SVGLogoMaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeloc1/SVGLogoMaker/issues"
+  },
+  "homepage": "https://github.com/michaeloc1/SVGLogoMaker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
