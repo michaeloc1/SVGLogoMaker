@@ -1,18 +1,26 @@
 
 
-const Circle = require("../lib/shapes.js")
+const shapes = require("../lib/shapes.js")
 
 const generateSVG = (data) => {
-   // console.log("hello")
-   // console.log(data)
-   //let newCircle = new Circle(data.text, data.textColor, data.shapeColor);
-   //newCircle.shapeColor = "red"
-   // console.log(newCircle.render())
-   let aCircle = new Circle();
-   aCircle.text= "YOU"
-   aCircle.textColor = "gold"
-   aCircle.shapeColor = "black"
-   console.log(aCircle.render())
+
+      switch(data.shape){
+         case 'Circle':
+            const newCircle = new shapes.Circle(data.text, data.textColor, data.shapeColor);
+            return newCircle.render();
+            break;
+
+         case 'Triangle':
+            const newTriangle = new shapes.Triangle(data.text, data.textColor, data.shapeColor)
+            return newTriangle.render();
+            break;
+         case 'Square':
+            const newSquare = new shapes.Square(data.text, data.textColor, data.shapeColor);
+            return newSquare.render();
+            break;
+
+
+      }
 
 }
 
