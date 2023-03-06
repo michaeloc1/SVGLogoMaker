@@ -7,6 +7,14 @@ const questions = [
         type: 'input',
         message: 'Enter text for your logo(Up to 3 characters)',
         name: 'text',
+        validate: function(value) {
+            if(value.length > 3){
+                return "Please enter 3 characters or less"
+            }
+            else{
+                return true;
+            }
+        }
     },
     {
         type: 'input',
