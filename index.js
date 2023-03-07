@@ -36,12 +36,13 @@ const questions = [
 
 inquirer
     .prompt(questions).then((data) => {
-        fs.writeFile('logo.svg',generateSVG(data), (err) => {
+        fs.writeFile('./examples/logo.svg',generateSVG(data), (err) => {
             if(err){
                 console.log(err);
             }
             else{
-                console.log('svg file sucessfully generated')
+                console.log('Generated logo.svg')
+
             }
            })
     })
