@@ -34,6 +34,6 @@ Visit me at [Github](https://github.com/michaeloc1)
 ## Link to Github repository
 [Link](https://github.com/michaeloc1/SVGLogoMaker) to Github repository.
 ## Link to walkthrough Video
-
+[Link](https://www.youtube.com/watch?v=xocnoUSL1DI) to walkthrough video.
 ## Link to generated SVG file
 [Link](./examples/logo.svg) to generated svg logo.

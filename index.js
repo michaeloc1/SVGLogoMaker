@@ -1,3 +1,4 @@
+
 const inquirer = require('inquirer');
 const generateSVG = require('./utils/generateSVG')
 const fs = require('fs')
