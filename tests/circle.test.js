@@ -1,5 +1,6 @@
 const circle = require('../lib/circle.js');
 
+//test for circle shape color
 // A testing suite for circle is created.
 describe('Circle', () => {
   // A test is created to check that the color of the circle comes back the color entered.

@@ -1,5 +1,6 @@
 const triangle = require('../lib/triangle.js');
 
+//test for triangle shape color
 // A testing suite for triangle is created.
 describe('Triangle', () => {
     // A test is created to check that the color of the circle comes back the color entered.

@@ -2,6 +2,8 @@ const inquirer = require('inquirer');
 const generateSVG = require('./utils/generateSVG')
 const fs = require('fs')
 
+//questions array. For the first question I limit the number of characters
+//the user can enter to 3
 const questions = [
     {
         type: 'input',

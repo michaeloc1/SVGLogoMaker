@@ -1,5 +1,6 @@
 const square = require('../lib/square');
 
+//test for square shape color
 describe('Square', () => {
     // A test is created to check that the color of the circle comes back the color entered.
     describe('render', () => {

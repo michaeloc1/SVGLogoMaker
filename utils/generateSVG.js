@@ -3,6 +3,10 @@ const circle = require("../lib/circle.js")
 const triangle = require("../lib/triangle.js")
 const square = require("../lib/square")
 
+//Function where svg is rendered. First I create the svg tag, since it's the 
+//same for all shapes I do this before the switch. Then I create the shape
+//element in the switch.  These are all concatinated into a string variable
+//and returned
 const generateSVG = (data) => {
    let newStr = ""
    const newShape = new shapes
